@@ -10,31 +10,31 @@
 
 # Remember: = is assignment, while == is comparison.
 
-# a = 3
-# b = 4
+a = 3
+b = 4
 
-# print(a == b)   # False
-# print(a != b)   # True
-# print(a > b)    # False
-# print(a < b)    # True
-# print(a >= b)   # False
-# print(a <= b)   # True
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # False
+print(a < b)    # True
+print(a >= b)   # False
+print(a <= b)   # True
 
 
 # #predict the output of the following comparisons:
-# 10 > 5 # True
-# 7 == 2 * 3 + 1 # True
-# 8 != 8 # False
-# 4 <= 2 + 2 # True
+10 > 5 # True
+7 == 2 * 3 + 1 # True
+8 != 8 # False
+4 <= 2 + 2 # True
 
 # # Write 3 examples that result in True and 3 that result in False.
-# 8 < 10
-# 7 = 7
-# 10 != 17
+8 < 10
+7 = 7
+10 != 17
 
-# 1 != 1
-# 50 > 100
-# 20 = 21
+1 != 1
+50 > 100
+20 = 21
 # Create a simple grade-checking condition:
 
 # practice problem :
@@ -45,3 +45,11 @@ if grade >= 60:
     print("You passed the test!")
 else: 
     print("You did not pass the test.")
+
+
+# password
+password = input("Enter your password: ")
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("Password is valid.")
+else:
+    print("Password is invalid.")
