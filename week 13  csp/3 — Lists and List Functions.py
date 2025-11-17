@@ -33,6 +33,37 @@ print(list_of_fruits)
 list_of_items = list(range(1001, 2001))
 print(list_of_items)
 print(len(list_of_items))
+
+#SETS AND TUPLES
+#sets and tuples are also part of the collections
+#family in python
+set1 = {1, 2, 3, 4, 5}
+set2 = {"apple", "banana", "cherry"}
+print(set1)
+print(set2)
+print(type(set1))
+
+sets_with_duplicates = {1, 2, 2, 3, 4, 4, 5}
+print(sets_with_duplicates)
+
+print(3 in set1)
+print(6 in set1)
+
+tuple1 = (1, 2, 3, 4, 5)
+tuple2 = {"apple", "banana", "cherry"}
+print(tuple1)
+print(tuple2)
+print(type(tuple1))
+# tuples cannot be changed after
+social_security_number = (123444, 4444445, 5676789)
+
+#why use a list?
+#instead of creating seperate variables
+# for each item, we can store them in a list
+# this makes our job easier
+# this makes managing the complexity of our code easier
+# when we need to manage multiple list of items
+# performance task answer
 # Examples:
 
 # my_list = ['apple', 'banana', 'cherry']
